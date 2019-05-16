@@ -17,5 +17,6 @@ backend.dependsOn(auditSystem.get("auditLogger"))
 
 let exp = new Exporter();
 const data = exp.export("api", frontend) // you only need the tip of the iceberg
+console.log(data)
 
 console.log(MakeNeo4J(data))

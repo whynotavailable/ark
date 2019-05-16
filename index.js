@@ -91,7 +91,11 @@ class Exporter {
 		}
 
 		return {
-			nodes: nodeList,
+			nodes: nodeList.map(n => {
+				let newNode = Object.assign({}, n)
+				delete newNode.flows;
+				return newNode;
+			}),
 			rels: relationships
 		}
 	}
