@@ -1,0 +1,9 @@
+This is where I'll put my notes for creation
+
+* What does this even do
+This is a system for defining architecture as code. It allows us to define and manage
+archeticture in a predicatable reproducable way.
+* Why am I doing this?
+I have the belief that architecture should be a distributed effort. Instead of one single person managing
+all the architecture of a system (read: single source of failure) you can have many people managing their
+specific pieces.
